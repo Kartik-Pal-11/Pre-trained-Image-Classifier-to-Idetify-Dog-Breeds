@@ -76,3 +76,5 @@ def classify_images(images_dir, results_dic, model):
 
         match = 1 if pet_label in classifier_label else 0
         results_dic[key].extend([classifier_label, match])
+
+    # print(results_dic)
